@@ -15,10 +15,10 @@ class Anagram
         next
       end
       if self.word.split("").sort == word.split("").sort
-        matches << word
+       # matches << word
       end
     end
-    matches
+  #  matches
   end
   
 end
